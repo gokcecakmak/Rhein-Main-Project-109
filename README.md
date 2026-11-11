@@ -12,6 +12,7 @@ Team project for the Software Engineering Project (TPSE) 2026/27, TU Darmstadt, 
 | WhatsApp group | Team communication | team group chat |
 | Google Calendar | Shared calendar (meetings, deadlines) | shared team calendar |
 | Time sheet | Time tracking | [Google Sheet](https://docs.google.com/spreadsheets/d/1I71td3llX_O85hG_fcMZ-GQy8n_1aaVdxOQyqAHTu0k/edit?usp=sharing) |
+| Team planning doc | Deadlines, task assignment, ideas | [Google Doc](https://docs.google.com/document/d/1_f4eH4t83bvpGbxTf0UQxuZcs1Sivc5dws9W7AwYNws/edit?usp=sharing) |
 
 ## Where the TB finds what
 
