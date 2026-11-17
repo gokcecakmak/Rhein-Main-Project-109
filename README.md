@@ -23,7 +23,11 @@ Team project for the Software Engineering Project (TPSE) 2026/27, TU Darmstadt, 
 
 ## Running the code (prototype)
 
-Requirements: Docker Desktop (includes Docker Compose). Nothing else needs to be installed.
+Requirements: Docker Desktop (includes Docker Compose). Git is optional, a ZIP download works too. 
+
+Get the code: `git clone -b feature/running-code https://github.com/gokcecakmak/Rhein-Main-Project-109.git`, then `cd Rhein-Main-Project-109`.
+Without git: on GitHub choose the branch feature/running-code, click Code, then Download ZIP, and unzip it.
+Once the branch is merged into main, the option `-b feature/running-code` is no longer needed.
 
 Build and start: `docker compose up --build`
 
