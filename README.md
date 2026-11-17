@@ -20,3 +20,23 @@ Team project for the Software Engineering Project (TPSE) 2026/27, TU Darmstadt, 
 - Meeting minutes (first AG meeting 11.11.2026): `docs/minutes`
 - Requirements: Issues tab
 - Time tracking: Google Sheet (see table above)
+
+## Running the code (prototype)
+
+Requirements: Docker Desktop (includes Docker Compose). Nothing else needs to be installed.
+
+Build and start: `docker compose up --build`
+
+Then open http://localhost:8080 in a browser.
+
+Stop: press Ctrl+C in the terminal, then run `docker compose down`.
+To reset the database to the sample data, run `docker compose down -v` and start again.
+
+Structure:
+
+- `src/index.php`: seminar list page (PHP 8.4, PDO)
+- `db/init.sql`: database table and sample data (MariaDB)
+- `Dockerfile`, `docker-compose.yml`: local development environment
+
+The passwords in `docker-compose.yml` are for local development only.
+The target environment is the AG's Debian server with PHP 8.4/8.5 and MariaDB.
