@@ -20,3 +20,27 @@ Team project for the Software Engineering Project (TPSE) 2026/27, TU Darmstadt, 
 - Meeting minutes (first AG meeting 11.11.2026): `docs/minutes`
 - Requirements: Issues tab
 - Time tracking: Google Sheet (see table above)
+
+## Running the code (prototype)
+
+Requirements: Docker Desktop (includes Docker Compose). Git is optional, a ZIP download works too. 
+
+Get the code: `git clone -b feature/running-code https://github.com/gokcecakmak/Rhein-Main-Project-109.git`, then `cd Rhein-Main-Project-109`.
+Without git: on GitHub choose the branch feature/running-code, click Code, then Download ZIP, and unzip it.
+Once the branch is merged into main, the option `-b feature/running-code` is no longer needed.
+
+Build and start: `docker compose up --build`
+
+Then open http://localhost:8080 in a browser.
+
+Stop: press Ctrl+C in the terminal, then run `docker compose down`.
+To reset the database to the sample data, run `docker compose down -v` and start again.
+
+Structure:
+
+- `src/index.php`: seminar list page (PHP 8.4, PDO)
+- `db/init.sql`: database table and sample data (MariaDB)
+- `Dockerfile`, `docker-compose.yml`: local development environment
+
+The passwords in `docker-compose.yml` are for local development only.
+The target environment is the AG's Debian server with PHP 8.4/8.5 and MariaDB.
