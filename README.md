@@ -20,6 +20,8 @@ Team project for the Software Engineering Project (TPSE) 2026/27, TU Darmstadt, 
 - Meeting minutes (first AG meeting 11.11.2026): `docs/minutes`
 - Requirements: Issues tab
 - Time tracking: Google Sheet (see table above)
+- Code review checklist: [REVIEW_CHECKLIST.md](REVIEW_CHECKLIST.md). Every pull request is reviewed by a member of another pair before it is merged into `main` (at least one approval required, rotating reviewers).
+- Review examples: pull requests [#2](https://github.com/gokcecakmak/Rhein-Main-Project-109/pull/2), [#3](https://github.com/gokcecakmak/Rhein-Main-Project-109/pull/3), [#4](https://github.com/gokcecakmak/Rhein-Main-Project-109/pull/4) (comments and approvals)
 
 ## Running the code (prototype)
 
